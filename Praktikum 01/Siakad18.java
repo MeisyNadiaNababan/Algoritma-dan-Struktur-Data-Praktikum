@@ -5,27 +5,27 @@ public class Siakad18{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String[] namaMK = {"Agama", "Bahasa Indonesia", "Bahasa Inggris Dasar", "Critical Thinking and Problem Solving",
-                "Dasar Pemrograman", "Konsep Teknologi Informasi", "Matematika Dasar", "Pengantar Akuntasi Manajemen dan Bisnis",
-                "Praktikum Dasar Pemrograman"};
+        String[] namaMK = {"Agama" ,"B.Indo","B.Inggris","CTPS",
+                "DASPRO","KTI","MTK Dasar",
+                "PAMB", "P.DASPRO"};
 
         double[] nilaiAngka = new double[9];
         String[] nilaiHuruf = new String[9];
         String[] kualifikasi = new String[9];
         double[] bobotSks = new double[9];
         
-        System.out.println("===================================================================");
-        System.out.println("                  Program Menghitung IP Semester                   ");
-        System.out.println("===================================================================");
+        System.out.println("=======================================================================");
+        System.out.println("                    Program Menghitung IP Semester                     ");
+        System.out.println("=======================================================================");
 
         for (int i = 0; i < nilaiAngka.length; i++) {
             System.out.print("Masukkan nilai angka untuk " + namaMK[i] + ": ");
             nilaiAngka[i] = scanner.nextDouble();
         }
 
-        System.out.println("===================================================================");
-        System.out.println("                          Hasil Konversi Nilai                     ");
-        System.out.println("===================================================================");
+        System.out.println("=======================================================================");
+        System.out.println("                            Hasil Konversi Nilai                       ");
+        System.out.println("=======================================================================");
         System.out.println("| Mata Kuliah | Nilai Angka | Nilai Huruf | Bobot Nilai | Kualifikasi |");
         System.out.println("|-------------|-------------|-------------|-------------|-------------|");
 
@@ -69,9 +69,9 @@ public class Siakad18{
         double ipSemester = totalNilai / totalBobotSks;
 
         for (int i = 0; i < namaMK.length; i++) {
-            System.out.printf("| %-20s | %-10.2f | %-10s | %-10.2f | %-10s |\n", namaMK[i], nilaiAngka[i], nilaiHuruf[i], bobotSks[i], kualifikasi[i]);
+            System.out.printf("| %-10s | %-10.2f | %-10s | %-10.2f | %-10s |\n", namaMK[i], nilaiAngka[i], nilaiHuruf[i], bobotSks[i], kualifikasi[i]);
         }
-        System.out.println("====================================================================");
+        System.out.println("========================================================================");
         System.out.println("IP Semester: " + ipSemester);
     }
 }
