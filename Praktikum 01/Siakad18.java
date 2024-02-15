@@ -5,9 +5,9 @@ public class Siakad18{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String[] namaMK = {"Agama" ,"B.Indo","B.Inggris","CTPS",
-                "DASPRO","KTI","MTK Dasar",
-                "PAMB", "P.DASPRO"};
+        String[] namaMK = {"Agama","Bahasa Indonesia","Bahasa Inggris Dasar","Critical Thinking and Problem Solving",
+                "Dasar Pemrograman","Konsep Teknologi Informasi","Matematika Dasar","Pengantar Akuntasi Manajemen dan Bisnis",
+                "Praktikum Dasar Pemrograman"};
 
         double[] nilaiAngka = new double[9];
         String[] nilaiHuruf = new String[9];
@@ -23,11 +23,11 @@ public class Siakad18{
             nilaiAngka[i] = scanner.nextDouble();
         }
 
-        System.out.println("=======================================================================");
-        System.out.println("                            Hasil Konversi Nilai                       ");
-        System.out.println("=======================================================================");
-        System.out.println("| Mata Kuliah | Nilai Angka | Nilai Huruf | Bobot Nilai | Kualifikasi |");
-        System.out.println("|-------------|-------------|-------------|-------------|-------------|");
+        System.out.println("============================================================================================================");
+        System.out.println("                                          Hasil Konversi Nilai                                          ");
+        System.out.println("============================================================================================================");
+        System.out.printf("| %-40s | %-12s | %-12s | %-12s | %-16s |\n", "Mata Kuliah","Nilai Angka", "Nilai Huruf", "Bobot Nilai", "Kualifikasi");
+        System.out.println("|------------------------------------------|--------------|--------------|--------------|------------------|");
 
         double totalBobotSks = 0;
         double totalNilai = 0;
@@ -69,9 +69,9 @@ public class Siakad18{
         double ipSemester = totalNilai / totalBobotSks;
 
         for (int i = 0; i < namaMK.length; i++) {
-            System.out.printf("| %-10s | %-10.2f | %-10s | %-10.2f | %-10s |\n", namaMK[i], nilaiAngka[i], nilaiHuruf[i], bobotSks[i], kualifikasi[i]);
+            System.out.printf("| %-40s | %-12.2f | %-12s | %-12.2f | %-16s |\n", namaMK[i], nilaiAngka[i], nilaiHuruf[i], bobotSks[i], kualifikasi[i]);
         }
-        System.out.println("========================================================================");
+        System.out.println("============================================================================================================");
         System.out.println("IP Semester: " + ipSemester);
     }
 }
