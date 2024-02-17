@@ -10,6 +10,7 @@ public class Rumus18{
             System.out.println("1. Menghitung Kecepatan");
             System.out.println("2. Menghitung Jarak");
             System.out.println("3. Menghitung Waktu");
+            System.out.println("4. Exit");
             System.out.print("Pilih menu:");
 
             pilihan = scanner.nextInt();
