@@ -71,7 +71,7 @@ public class Siakad18{
         for (int i = 0; i < namaMK.length; i++) {
             System.out.printf("| %-40s | %-12.2f | %-12s | %-12.2f | %-16s |\n", namaMK[i], nilaiAngka[i], nilaiHuruf[i], bobotSks[i], kualifikasi[i]);
         }
-        System.out.println("============================================================================================================");
+        System.out.println("================================================================================================================");
         System.out.println("IP Semester: " + ipSemester);
     }
 }
