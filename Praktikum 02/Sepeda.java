@@ -1,12 +1,11 @@
 //package Praktikum02;
 
 public class Sepeda {
-
     float kecepatan;
     int gear;
-
-    public Sepeda() {
-
+    
+    public Sepeda (){
+        
     }
 
     public Sepeda(float newKecepatan, int newGear) {
