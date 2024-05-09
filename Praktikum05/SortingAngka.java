@@ -1,4 +1,4 @@
-package Praktikum05;
+//package Praktikum05;
 
 public class SortingAngka {
     public static int[] bubbleSort(int[] numbers) {

@@ -1,0 +1,280 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SLLMain",
+            "request": "launch",
+            "mainClass": "SLLMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "QueueDemo",
+            "request": "launch",
+            "mainClass": "QueueDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "KlinikDemo",
+            "request": "launch",
+            "mainClass": "Praktikum08.Tugas.KlinikDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "GerbangTolDemo",
+            "request": "launch",
+            "mainClass": "GerbangTolDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "QueueDemo",
+            "request": "launch",
+            "mainClass": "Praktikum08.QueueDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PostfixTugasDemo",
+            "request": "launch",
+            "mainClass": "PostfixTugasDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "MeiDemo",
+            "request": "launch",
+            "mainClass": "MeiDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "meiDemo",
+            "request": "launch",
+            "mainClass": "meiDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PostfixDemo",
+            "request": "launch",
+            "mainClass": "PostfixDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "StackDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PostfixDemo",
+            "request": "launch",
+            "mainClass": "Praktikum07.PostfixDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "Praktikum07.StackDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "AkarBilanganMain",
+            "request": "launch",
+            "mainClass": "AkarBilanganMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "MainAkarBilangan",
+            "request": "launch",
+            "mainClass": "MainAkarBilangan",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SortMain",
+            "request": "launch",
+            "mainClass": "SortMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "MainFaktorial",
+            "request": "launch",
+            "mainClass": "MainFaktorial",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "ParkirMain",
+            "request": "launch",
+            "mainClass": "ParkirMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "ParkirMall",
+            "request": "launch",
+            "mainClass": "ParkirMall",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SistemParkir",
+            "request": "launch",
+            "mainClass": "SistemParkir",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "DragonMain",
+            "request": "launch",
+            "mainClass": "DragonMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "GuruMain",
+            "request": "launch",
+            "mainClass": "GuruMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "KampusManin",
+            "request": "launch",
+            "mainClass": "KampusManin",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PersegiPanjang",
+            "request": "launch",
+            "mainClass": "PersegiPanjang",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PersegiPanjangDemo",
+            "request": "launch",
+            "mainClass": "PersegiPanjangDemo",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PiramidaMain",
+            "request": "launch",
+            "mainClass": "PiramidaMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "PlatMobil18",
+            "request": "launch",
+            "mainClass": "PlatMobil18",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "Rumus18",
+            "request": "launch",
+            "mainClass": "Rumus18",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SepedaMain",
+            "request": "launch",
+            "mainClass": "SepedaMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "Siakad18",
+            "request": "launch",
+            "mainClass": "Siakad18",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SnakeMain",
+            "request": "launch",
+            "mainClass": "SnakeMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "Sorting",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SortingAngka",
+            "request": "launch",
+            "mainClass": "SortingAngka",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SortingDescending",
+            "request": "launch",
+            "mainClass": "SortingDescending",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "SistemParkirMain",
+            "request": "launch",
+            "mainClass": "UTS.SistemParkirMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "UserMain",
+            "request": "launch",
+            "mainClass": "UserMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "travelReservasiHotelMain",
+            "request": "launch",
+            "mainClass": "travelReservasiHotelMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        }
+    ]
+}

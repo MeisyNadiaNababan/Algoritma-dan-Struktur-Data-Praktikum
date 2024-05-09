@@ -1,4 +1,4 @@
-package Praktikum05;
+//package Praktikum05;
 
 public class SortingDescending {
     public static int[] bubbleSortDescending(int[] numbers) {
