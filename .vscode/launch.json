@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoubleLinkedListMain",
+            "request": "launch",
+            "mainClass": "doublelinkedlists.DoubleLinkedListMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
+            "name": "ScavengerHuntMain",
+            "request": "launch",
+            "mainClass": "Tugas.ScavengerHuntMain",
+            "projectName": "Algoritma dan Struktur Data Praktik_fb648168"
+        },
+        {
+            "type": "java",
             "name": "SLLMain",
             "request": "launch",
             "mainClass": "SLLMain",
